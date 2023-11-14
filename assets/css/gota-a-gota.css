@@ -80,6 +80,7 @@ img {
 :root {
   --principal: #5874a4;
   --claro: #f4f8ff;
+  --email: #7195d3;
 }
 
 /* 
@@ -1082,6 +1083,15 @@ Testimonials Style
 Contacto
 --------------------------------------------- 
 */
+
+.email {
+  color: var(--email);
+  transition: all 0.33s ease-in-out;
+}
+
+.email:hover {
+  color: var(--principal);
+}
 
 .contact-us {
   margin-top: 80px;
