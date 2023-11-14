@@ -818,14 +818,14 @@ Sobre
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 0;
+  left: 0;
   z-index: -1;
-  width: 84%;
+  width: 93%;
   height: 100%;
   background-color: var(--claro);
   content: '';
-  border-top-left-radius: 500px;
-  border-bottom-left-radius: 500px;
+  border-top-right-radius: 500px;
+  border-bottom-right-radius: 500px;
 }
 
 .accordion {
