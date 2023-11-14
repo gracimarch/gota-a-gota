@@ -614,6 +614,9 @@ Header
 Información corta
 --------------------------------------------- 
 */
+.chatia {
+  border-radius: 50px;
+}
 
 .main-banner {
   background-image: url(../images/banner-bg.svg);
