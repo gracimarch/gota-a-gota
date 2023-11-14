@@ -333,7 +333,6 @@ Header Style
 .header-area .main-nav .logo h1 {
   font-size: 36px;
   text-transform: uppercase;
-  display: inline-block;
   white-space: nowrap;
   color: #fff;
   font-weight: 600;
@@ -342,37 +341,12 @@ Header Style
   border-right: 1px solid rgba(250, 250, 250, 0.3);
 }
 
-.background-header .main-nav .logo,
-.background-header .main-nav #search {
+.background-header .main-nav .logo {
   margin-top: 18px;
 }
 
 .header-area .main-nav #search {
   position: relative;
-}
-
-.header-area .main-nav #search input {
-  background-color: rgba(255, 255, 255, 0.10);
-  height: 44px;
-  width: 250px;
-  border-radius: 23px;
-  border: none;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 300;
-  padding: 0px 20px 0px;
-}
-
-.header-area .main-nav #search input::placeholder {
-  color: rgba(250, 250, 250, 0.75);
-}
-
-.header-area .main-nav #search i {
-  position: absolute;
-  color: #fff;
-  right: 20px;
-  top: 15px;
-  font-size: 16px;
 }
 
 .header-area .main-nav ul.nav {
@@ -994,93 +968,6 @@ Courses Style
 .event_filter li a:hover {
   color: var(--principal);
 }
-
-.events_item .thumb {
-  position: relative;
-  border-radius: 25px;
-  overflow: hidden;
-}
-
-.events_item .thumb img {
-  margin-bottom: -5px;
-}
-
-.events_item .thumb span.category {
-  position: absolute;
-  left: 30px;
-  top: 30px;
-  font-size: 14px;
-  text-transform: uppercase;
-  color: var(--principal);
-  background-color: rgba(250, 250, 250, 0.95);
-  padding: 8px 20px;
-  border-radius: 25px;
-  font-weight: 500;
-  display: inline-block;
-}
-
-.events_item .thumb span.price {
-  position: absolute;
-  right: -30px;
-  top: -50px;
-  background-color: rgba(122, 106, 216, 0.95);
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  display: inline-block;
-  transition: all .3s;
-}
-
-.events_item .thumb span.price h6 {
-  margin-top: 72px;
-  margin-left: 22px;
-  font-size: 28px;
-  text-transform: uppercase;
-  color: #fff;
-  font-weight: 700;
-}
-
-.events_item .thumb span.price em {
-  font-size: 18px;
-  font-weight: 500;
-  font-style: normal;
-  vertical-align: top;
-}
-
-.events_item {
-  background-color: var(--claro);
-  border-radius: 25px;
-  margin-bottom: 30px;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-} 
-
-.events_item .down-content {
-  padding: 20px 30px 25px 30px;
-}
-
-.events_item .down-content span.author {
-  color: var(--principal);
-  font-size: 15px;
-  display: inline-block;
-  margin-bottom: 6px;
-}
-
-.events_item .down-content h4 {
-  font-size: 22px;
-  font-weight: 600;
-  transition: all .3s;
-}
-
-.events_item:hover .down-content h4 {
-  color: var(--principal);
-}
-
-.events_item:hover .thumb span.price {
-  transform: scale(1.2);
-}
-
 
 /* 
 ---------------------------------------------
@@ -1835,42 +1722,6 @@ body {
   }
   .testimonials .owl-nav {
     display: none;
-  }
-  .events {
-    margin-top: 80px;
-  }
-  .events .item {
-    margin-bottom: 66px;
-  }
-  .events .item .image img {
-    position: relative;
-    max-width: 100%;
-  }
-  .events .item ul {
-    margin-top: -40px;
-  }
-  .events .item ul li:first-child {
-    width: 100% !important;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #ddd;
-  }
-  .events .item ul li:nth-child(2) {
-    width: 40% !important;
-  }
-  .events .item ul li {
-    display: inline-block;
-    width: 28% !important;
-  }
-  .events .item ul li:last-child {
-    text-align: right;
-  }
-  .events .item a {
-    bottom: 150px;
-    top: auto;
-  }
-  .events .item ul li h6 {
-    font-size: 14px;
   }
   .contact-us {
     padding-top: 20px;
