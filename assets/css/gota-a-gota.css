@@ -826,7 +826,7 @@ Sobre
   bottom: 0;
   right: 0;
   z-index: -1;
-  width: 84%;
+  width: 95%;
   height: 100%;
   background-color: var(--claro);
   content: '';
@@ -897,11 +897,7 @@ h2.accordion-header button {
 
 .about-us .section-heading {
   margin-left: 60px;
-  margin-bottom: 0px;
-}
-
-.about-us .section-heading .main-button {
-  margin-top: 50px;
+  margin-bottom: 0;
 }
 
 /* 
@@ -1445,7 +1441,8 @@ body {
   }
   .about-us .section-heading {
     margin-left: 0px;
-    margin-top: 120px;
+    margin-top: 40px;
+    margin-bottom: 90px;
   }
   .about-us::before,
   .testimonials::before,
