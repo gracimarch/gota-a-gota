@@ -8,6 +8,7 @@ Nuestro objetivo es contribuir a la gestión sostenible del agua en un contexto 
 
 ## 📬 Contacto 
 
-[E-mail](gota.a.gota.emprendeu@gmail.com)
+- [E-mail](gota.a.gota.emprendeu@gmail.com)
+- [Instagram](https://www.instagram.com/gota.a.gota.mza/)
 
-Para más información: [clickea aquí](https://gota-a-gota.vercel.app/)
+Para más información, visita [nuestro sitio web](https://gota-a-gota.vercel.app/)
